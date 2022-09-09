@@ -2,7 +2,7 @@
 /**
  *main-entry point
  *   
- *Return:0after printing the function on my screen
+ *Return:zero after printing the function on my screen
  */
 int main(void)
 { puts("\"Programming is like building a multilingual puzzle");
