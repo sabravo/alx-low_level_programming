@@ -7,20 +7,23 @@
  */
 int main(void)
 {
-	int c;
+	int number;
 
-	for (c = '0'; c <= '9'; c++)
+	for (number = 48; number <= 57; number++)
 	{
-		putchar(c);
+		putchar(number);
 
-	if (c != '9')
-	{
+		if (number == 57)
+		{
+			break;
+		}
+
 		putchar(',');
-		putchar(' ');
+		putchar (' ');
 	}
-	      }
 
-		putchar('\n');
+	putchar ('\n');
 
 	return (0);
+
 }
