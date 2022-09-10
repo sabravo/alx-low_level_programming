@@ -1,10 +1,10 @@
 nclude <stdio.h>
 
 /**
- *  * main - lowercase and uppercase
- *   *
- *    * Return: Always (Success)
- *     */
+ * main - lowercase and uppercase
+ *
+ * Return: Always (Success)
+ */
 int main(void)
 {
 	char c;
