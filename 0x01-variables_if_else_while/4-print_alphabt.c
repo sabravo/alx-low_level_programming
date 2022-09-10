@@ -7,17 +7,21 @@
  */
 int main(void)
 {
-	char c;
+	char alphabet;
 
-	for (c = 'a'; c <= 'z'; c++)
+	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 	{
-	if (c != 'e' && c != 'q')
-	{
-		putchar(c);
+		if (alphabet == 'q')
+			continue;
+
+		else if (alphabet == 'e')
+			continue;
+
+		putchar(alphabet);
 	}
-	
-	}
-                putchar('\n');
+
+	putchar ('\n');
 
 	return (0);
+
 }
