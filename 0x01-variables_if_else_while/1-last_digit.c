@@ -22,10 +22,12 @@ int main(void)
 	{
 		printf("0\n");
 	}
-       	else
+	else
 	{
-		printf("less than 6 and not 0\n");
+	  	printf("less than 6 and not 0\n");
 	}
-	return(0);
+	return (0);
+
 }
+
 
