@@ -6,15 +6,17 @@
  * Return: Always (Success)
  */
 int main(void)
-{
-	char c;
 
-for (c = 'a'; c <= 'z'; c++)
+{
+	char alphabet;
+
+	for (alphabet = 'a'; alphabet <= 'z' ; alphabet++)
 	{
-	 putchar(c);
+	putchar(alphabet);
 	}
 
 	putchar('\n');
 
 	return (0);
+
 }
