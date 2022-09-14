@@ -8,8 +8,7 @@
  */
 int main(void)
 {
-	int count;
-	unsigned log fib1=0, fib2=1, sum;
+	int count, fib1=0, fib2=1, sum;
 	
 	for (count =0; count < 50; count++)
 	{
