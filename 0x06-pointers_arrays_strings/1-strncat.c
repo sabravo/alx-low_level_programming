@@ -3,6 +3,8 @@
  * Auth: Bello Augustine
  */
 #include "main.h"
+#include <stdio.h>
+
 /**
  * _strncat - concatenates two strings
  * @dest: input parameter string
