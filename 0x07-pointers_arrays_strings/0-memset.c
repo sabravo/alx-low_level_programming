@@ -1,4 +1,4 @@
-#include "mainn.h"
+#include "main.h"
 /*
  * File: 0-memset.c
  * Auth: Bello Augustine
