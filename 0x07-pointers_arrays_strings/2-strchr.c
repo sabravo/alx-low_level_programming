@@ -1,9 +1,5 @@
 #include "main.h"
 
-/*
- * File: 2-strchr.c
- * Auth: Bello Augustine
- */
 /**
  *_strchr - locates a character in a string
  *@s: string to be searched
