@@ -1,5 +1,3 @@
-#include "main.h"
-
 /**
  *_strchr - locates a character in a string
  *@s: string to be searched
@@ -7,7 +5,7 @@
  *
  *Return: pointer to first occurence of c
  */
-char * _strchr(char *s, char c)
+char *_strchr(char *s, char c)
 {
 	int index;
 
