@@ -3,23 +3,22 @@
  * File: 0-memset.c
  * Auth: Bello Augustine
  */
+
 /**
- * _memset - fills memory with constant byte
- * @s: pointer to the memory area
- * @n: bytes of memory
- * @b: constant byte
+ *_memset - sets a given amount of bytes to a value at an address
  *
- * Return: the memory area of s
+ *@s: memory location to start at
+ *@b: character to write to memory
+ *@n: number of bytes to write
+ *
+ *Return: pointer to s
  */
 char *_memset(char *s, char b, unsigned int n)
 {
-	unsigned int i = 0;
+	char *ptr = s;
 
-	while (i < n)
-	{
-		s[i] = b;
-		i++;
-	}
+	while (n-- > 0)
+	*ptr++ = b;
+	
 	return (s);
-
 }
