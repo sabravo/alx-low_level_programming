@@ -1,9 +1,3 @@
-#include "main.h"
-/*
- * File: 0-memset.c
- * Auth: Bello Augustine
- */
-
 /**
  *_memset - sets a given amount of bytes to a value at an address
  *@s: memory location to start at
